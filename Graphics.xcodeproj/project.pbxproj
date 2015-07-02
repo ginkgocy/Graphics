@@ -14,6 +14,8 @@
 		9E88ECB21B4515C500A35F9F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E88ECB11B4515C500A35F9F /* Images.xcassets */; };
 		9E88ECB51B4515C500A35F9F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E88ECB31B4515C500A35F9F /* LaunchScreen.xib */; };
 		9E88ECC11B4515C500A35F9F /* GraphicsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E88ECC01B4515C500A35F9F /* GraphicsTests.m */; };
+		9EBB63221B4529B4003C5638 /* GraphicsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EBB63211B4529B4003C5638 /* GraphicsView.m */; };
+		9EBB63241B453CA8003C5638 /* hua.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EBB63231B453CA8003C5638 /* hua.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,9 @@
 		9E88ECBA1B4515C500A35F9F /* GraphicsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GraphicsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E88ECBF1B4515C500A35F9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9E88ECC01B4515C500A35F9F /* GraphicsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GraphicsTests.m; sourceTree = "<group>"; };
+		9EBB63201B4529B4003C5638 /* GraphicsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphicsView.h; sourceTree = "<group>"; };
+		9EBB63211B4529B4003C5638 /* GraphicsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphicsView.m; sourceTree = "<group>"; };
+		9EBB63231B453CA8003C5638 /* hua.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hua.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +86,7 @@
 		9E88ECA31B4515C500A35F9F /* Graphics */ = {
 			isa = PBXGroup;
 			children = (
+				9EBB63231B453CA8003C5638 /* hua.png */,
 				9E88ECA81B4515C500A35F9F /* AppDelegate.h */,
 				9E88ECA91B4515C500A35F9F /* AppDelegate.m */,
 				9E88ECAB1B4515C500A35F9F /* ViewController.h */,
@@ -89,6 +95,8 @@
 				9E88ECB11B4515C500A35F9F /* Images.xcassets */,
 				9E88ECB31B4515C500A35F9F /* LaunchScreen.xib */,
 				9E88ECA41B4515C500A35F9F /* Supporting Files */,
+				9EBB63201B4529B4003C5638 /* GraphicsView.h */,
+				9EBB63211B4529B4003C5638 /* GraphicsView.m */,
 			);
 			path = Graphics;
 			sourceTree = "<group>";
@@ -202,6 +210,7 @@
 				9E88ECB01B4515C500A35F9F /* Main.storyboard in Resources */,
 				9E88ECB51B4515C500A35F9F /* LaunchScreen.xib in Resources */,
 				9E88ECB21B4515C500A35F9F /* Images.xcassets in Resources */,
+				9EBB63241B453CA8003C5638 /* hua.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,6 +229,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9E88ECAD1B4515C500A35F9F /* ViewController.m in Sources */,
+				9EBB63221B4529B4003C5638 /* GraphicsView.m in Sources */,
 				9E88ECAA1B4515C500A35F9F /* AppDelegate.m in Sources */,
 				9E88ECA71B4515C500A35F9F /* main.m in Sources */,
 			);
@@ -416,6 +426,7 @@
 				9E88ECC61B4515C500A35F9F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9E88ECC71B4515C500A35F9F /* Build configuration list for PBXNativeTarget "GraphicsTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +435,7 @@
 				9E88ECC91B4515C500A35F9F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

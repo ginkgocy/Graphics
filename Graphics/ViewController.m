@@ -7,21 +7,29 @@
 //
 
 #import "ViewController.h"
+#import "GraphicsView.h"
 
 @interface ViewController ()
 
 @end
 
 @implementation ViewController
-
+{
+    GraphicsView *view;
+}
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    view = [[GraphicsView alloc]initWithFrame:self.view.bounds];
+    view.backgroundColor  = [UIColor clearColor];
+//    [view setNeedsDisplay];
+    [self.view addSubview:view];
+
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
 
 @end
